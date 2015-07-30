@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffba09">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Headingbox">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="56dp"
+            android:text="TravelMaster "
+            android:id="@+id/Heading"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:fontFamily="Comic Sans"
+            android:textColor="#ff000000"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Anweisungsbox">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Please choose your prefered Category !"
+            android:id="@+id/Anweisung"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Essenbox"
+        android:paddingEnd="80dp"
+        android:paddingStart="80dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/meal"
+            android:src="@drawable/Fork_Knife" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="Essen"
+            android:id="@+id/Essen"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Unterkunftbox"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/hotel"
+            android:src="@drawable/hotel" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:text="Unterkunft / Hotel"
+            android:id="@+id/unterkunft"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Kulturbox"
+        android:paddingEnd="80dp"
+        android:paddingStart="80dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/sightseeing"
+            android:src="@drawable/sightseeing" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="Kultur"
+            android:id="@+id/kultur"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sonstigesbox"
+        android:paddingEnd="80dp"
+        android:paddingStart="80dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ect.pp"
+            android:src="@drawable/etc_pp"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:text="etc.pp"
+            android:id="@+id/etc_pp"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Begriffebox"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/questionmark"
+            android:src="@drawable/häufiggestelltefragen"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="85dp"
+            android:text="Häufig Verwendete Begriffe"
+            android:id="@+id/häufigbegriffe"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

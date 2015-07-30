@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffba09"
+    android:weightSum="1"
+    android:id="@+id/LinearLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:weightSum="1"
+        android:id="@+id/Headingbox">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="56dp"
+            android:text="TravelMaster "
+            android:id="@+id/Heading"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:fontFamily="Comic Sans"
+            android:textColor="#ff000000"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="hier steht der satz drin :D"
+        android:id="@+id/zu_übersetzender_satz"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.60" />
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="97dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="übersetzer satz in der am anfang ausgewählten sprache"
+        android:id="@+id/übersetzung"
+        android:layout_weight="0.33" />
+
+</LinearLayout>

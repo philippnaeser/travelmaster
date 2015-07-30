@@ -26,7 +26,7 @@ MERGED from com.android.support:support-v4:22.2.0:22:5
 		ADDED from AndroidManifest.xml:7:9
 	android:theme
 		ADDED from AndroidManifest.xml:9:9
-activity#com.example.fschneid.travelmaster.travelmasteractivity
+activity#com.example.felix.travelmaster.FullscreenActivityTravelMaster
 ADDED from AndroidManifest.xml:10:9
 	android:label
 		ADDED from AndroidManifest.xml:13:13

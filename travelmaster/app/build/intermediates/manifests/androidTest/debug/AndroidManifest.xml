@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fschneid.travelmaster.test">
+    package="com.example.felix.travelmaster.test">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.fschneid.travelmaster"
+                     android:targetPackage="com.example.felix.travelmaster"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.fschneid.travelmaster"/>
+                     android:label="Tests for com.example.felix.travelmaster"/>
 </manifest>
