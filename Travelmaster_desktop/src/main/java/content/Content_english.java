@@ -2,6 +2,9 @@ package content;
 
 import java.util.HashMap;
 
+/*
+ * Content für Englisch, fuellt die Inhalte in eine Hashmap und gibt diese bei Bedarf aus.
+ */
 public class Content_english {
 HashMap<Integer, String> map;
 	

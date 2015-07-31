@@ -2,12 +2,15 @@ package content;
 
 import java.util.HashMap;
 
+/*
+ * Erstellt die benötigten Content Klassen. SPrache wird von Benutzer geählt.
+ */
 public class Content_verwaltung {
 	private HashMap<Integer, String> l1;
 	private HashMap<Integer, String> l2;
 
 	public Content_verwaltung(){
-		
+			
 	}
 	
 	public void setMap1 (String language){
@@ -57,5 +60,9 @@ public class Content_verwaltung {
 		}
 		return l2.get(key);
 	}	
+	
+	public HashMap<Integer, String> getMap1(){
+		return l1;
+	}
 }
 
